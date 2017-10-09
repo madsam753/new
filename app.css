@@ -1,0 +1,47 @@
+.app {
+    position: absolute;
+    font-family: 'Lucida Console', Times, serif;
+    background-color: #bbbbbb;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.app-hidden {
+    display: none;
+}
+
+.app-topBar {
+    margin: 5px 5px 0px 5px;
+    padding: 5px 5px;
+    border: solid 1px #000000;
+    z-index: 0;
+}
+
+.app-barButton {
+    padding: 2px 0px;
+    margin: 0px 5px;
+    border: solid 1px #000000;
+    color: #ffffff;
+    background-color: transparent;
+    z-index: 0;
+    width: 100px;
+}
+
+.app-barContextButton {
+    margin: 2px 0;
+    padding: 2px 0px;
+    border: solid 1px #000000;
+    color: #ffffff;
+    background-color: transparent;
+    width: 100%;
+}
+
+.app-contextMenu {
+    width: 94px;
+    position: absolute;
+    background-color: #bbbbbb;
+    z-index: 10000;
+    border: solid 1px #000000;
+    padding: 2px;
+}

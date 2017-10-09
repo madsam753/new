@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>My first web in docker nginx!</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <p>This is my first web in docker nginx.</p>
-        <p>Cambio en tiempo real :D</p>
-        <script type="text/javascript" src="app.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Docker nginx and js tests</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="app.css" />
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+        let body = document.getElementsByTagName('body')[0];
+        body.onload = () => {
+            App.init();
+        };
+    </script>
+</body>
 </html>

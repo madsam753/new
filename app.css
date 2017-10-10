@@ -15,6 +15,7 @@
     margin: 5px 5px 0px 5px;
     padding: 5px 5px;
     border: solid 1px #000000;
+    border-radius: 5px;
     z-index: 0;
 }
 
@@ -22,19 +23,11 @@
     padding: 2px 0px;
     margin: 0px 5px;
     border: solid 1px #000000;
+    border-radius: 5px;
     color: #ffffff;
     background-color: transparent;
     z-index: 0;
     width: 100px;
-}
-
-.app-barContextButton {
-    margin: 2px 0;
-    padding: 2px 0px;
-    border: solid 1px #000000;
-    color: #ffffff;
-    background-color: transparent;
-    width: 100%;
 }
 
 .app-contextMenu {
@@ -43,5 +36,16 @@
     background-color: #bbbbbb;
     z-index: 10000;
     border: solid 1px #000000;
+    border-radius: 5px;
     padding: 2px;
+}
+
+.app-barContextButton {
+    margin: 2px 0;
+    padding: 2px 0px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    width: 100%;
 }
